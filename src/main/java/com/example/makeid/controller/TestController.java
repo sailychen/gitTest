@@ -19,6 +19,6 @@ public class TestController {
 
     @RequestMapping(value = "/str",method = RequestMethod.POST)
     public String test(@RequestBody Test test){
-        return "这是一个测试";
+        //return "这是一个测试";
     }
 }
